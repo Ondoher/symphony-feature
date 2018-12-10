@@ -1,0 +1,11 @@
+
+usage: sfeature [install] | [feature] <name>
+
+Use to setup a server and create the necessary boiler plate for a symphony loadable feature
+
+commands:
+      install   - creates an installation of symphony-feature server
+      feature   - creates a new feature
+
+arguments:
+      name      - the name of the feature

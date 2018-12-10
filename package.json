@@ -1,0 +1,26 @@
+{
+  "name": "symphony-feature",
+  "version": "0.0.17",
+  "description": "Generate a loadable feature for the symphony client",
+  "main": "index.js",
+  "bin": {
+    "sfeature": "bin/sfeature.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Glenn Anderson",
+  "license": "MIT",
+  "dependencies": {
+    "camelcase": "^5.0.0",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "node-static": "^0.7.11",
+    "node-uuid": "^1.4.8",
+    "uglify-es": "^3.3.9"
+  }
+}

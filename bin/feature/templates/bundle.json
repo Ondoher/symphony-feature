@@ -1,0 +1,15 @@
+{
+  "features": [
+    {
+      "type": "feature",
+      "id": "{app}",
+      "name": "{App}",
+      "blurb": "Do the {app} thing",
+      "publisher": "",
+      "manifestUrl": "https://localhost:8080/{app}",
+      "domain": "localhost",
+      "visible": true,
+      "icon":"https://localhost:8080/{app}/assets/images/app.png"
+    }
+  ]
+}
